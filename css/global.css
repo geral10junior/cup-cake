@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+form,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bahiana", serif;
+}
+
+p,
+a,
+h4,
+label,
+li {
+  font-family: "Roboto", Arial, sans-serif;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,138 @@
+.contato-bg {
+  background: #fbdfe4;
+}
+
+.contato-bg {
+  padding: 120px;
+}
+
+.contato-bg h3 {
+  color: #653321;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.contato-bg h3::after {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 64px;
+  top: -10px;
+  right: -20px;
+  background: #f69eac;
+  position: relative;
+}
+.contato-bg h3::before {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 64px;
+  top: -10px;
+  left: -20px;
+  background: #f69eac;
+  position: relative;
+}
+
+.contato-bg span {
+  font-family: "Roboto", Arial, sans-serif;
+  display: block;
+  color: #7c706c;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.formulario label {
+  display: block;
+  color: #7c706c;
+  margin-bottom: 8px;
+}
+.formulario input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 32px;
+  background: #f3f3f3;
+  border: 1px solid #b9b9b9;
+  border-radius: 10px;
+}
+
+.formulario .telefone input {
+  width: 50%;
+}
+
+.formulario {
+  max-width: 400px;
+  padding: 40px 64px;
+  background: #ffffff;
+  border: 2px solid #b9b9b9;
+  border-radius: 10px;
+}
+.formulario div {
+  margin-bottom: 16px;
+}
+
+.formulario h4 {
+  color: #653321;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.formulario button {
+  background: #f69eac;
+  color: #653321;
+  border: 1px solid #b09da0;
+  border-radius: 10px;
+  padding: 14px 24px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.formulario .botao {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.redes {
+  color: #653321;
+  padding: 40px;
+}
+
+.redes h4 {
+  margin-bottom: 20px;
+}
+
+.redes li + li {
+  margin-top: 8px;
+}
+
+.icones-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+@media (max-width: 1200px) {
+  .contato-bg {
+    padding: 60px 32px;
+  }
+  .contato {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+  .formulario .telefone input {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .contato-bg {
+    padding: 60px 16px;
+  }
+}

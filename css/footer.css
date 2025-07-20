@@ -1,0 +1,19 @@
+.logo-footer {
+  fill: #f69eac;
+}
+
+.footer-bg {
+  background: #090909;
+}
+
+.footer {
+  color: #f69eac;
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+.footer h3 {
+  display: flex;
+  place-content: flex-end;
+}
