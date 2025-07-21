@@ -13,12 +13,15 @@
 .sobre-conteudo p {
   color: #7c706c;
   font-size: 1rem;
+  line-height: 1.4;
+  max-width: 60ch;
 }
 
 .sobre-conteudo h3 {
   color: #653321;
   text-align: center;
   font-size: 2.5rem;
+  max-width: max-content;
 }
 .sobre-txt1 {
   position: relative;
@@ -81,7 +84,7 @@
     max-width: 260px;
   }
   .sobre-conteudo h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .sobre-conteudo .sobre-txt2 h3 {
     font-size: 2rem;

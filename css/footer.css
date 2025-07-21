@@ -16,4 +16,5 @@
 .footer h3 {
   display: flex;
   place-content: flex-end;
+  font-weight: 400;
 }

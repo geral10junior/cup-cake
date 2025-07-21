@@ -19,13 +19,13 @@
 .principal p {
   font-size: 1.25rem;
   color: #694b41;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
   max-width: 32ch;
 }
 .principal a {
   display: block;
   max-width: max-content;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background: #f69eac;
   color: #653321;
   border: 1px solid #b09da0;

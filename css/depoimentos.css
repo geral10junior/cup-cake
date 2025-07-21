@@ -74,8 +74,9 @@
   color: #7c706c;
   grid-area: texto;
   padding: 32px 48px 48px 48px;
-  max-width: 20ch;
+  max-width: 24ch;
   position: relative;
+  line-height: 1.4;
 }
 .texto::before {
   display: inline-block;
